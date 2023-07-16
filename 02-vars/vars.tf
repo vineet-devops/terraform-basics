@@ -30,8 +30,8 @@ output "example_list_op" {
 
 variable "example_map"{
     default = {
-        Batch = "B55"
-        training = "DevOpsWithAws"
+        Batch = "B55",
+        training = "DevOpsWithAws",
         mode = "online"
 
     }

@@ -11,13 +11,13 @@ output "var_sample_op"{
 }
 
 variable "example_list"{
-    default = {
+    default = [
         "aws",
         "DevOps",
         54,
         "Trainer",
         "terraform"
-    }
+    ]
 }
 
 output "example_list_op" {

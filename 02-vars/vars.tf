@@ -38,6 +38,6 @@ variable "example_map"{
 }
 
 output example_map_op {
-  value       = "we are learning 
+  value       = "we are learning"
 
 }

@@ -3,7 +3,7 @@
  }
 
  output "sample_output" {
-     default = var.sample
+     value = var.sample
  }
 
 # variable  "sample_op" {

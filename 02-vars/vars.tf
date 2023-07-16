@@ -1,14 +1,14 @@
-variable "sample" {
-    default = "Welcome to terraform"
-}
+# variable "sample" {
+#     default = "Welcome to terraform"
+# }
 
-variable  "sample_op" {
-    value = var.sample
-}
+# variable  "sample_op" {
+#     value = "welcome to terraform training"
+# }
 
-output "sample_var_op"{
-    value = "value of the variable is ${var.sample_op}"
-}
+# output "sample_var_op"{
+#     value = "value of the variable is ${var.sample_op}"
+# }
 
 variable "example_list"{
     default = [

@@ -1,6 +1,10 @@
-# variable "sample" {
-#     default = "Welcome to terraform"
-# }
+ variable "sample" {
+     default = "Welcome to terraform"
+ }
+
+ output "sample_output" {
+     default = "Welcome to terraform trainning"
+ }
 
 # variable  "sample_op" {
 #     value = "welcome to terraform training"
@@ -22,4 +26,18 @@ variable "example_list"{
 
 output "example_list_op" {
     value = "welcome to ${var.example_list[1]} with ${var.example_list[0]} trainning and this is our batch ${var.example_list[2]} and current topic is ${var.example_list[4]}"
+}
+
+variable "example_map"{
+    default = {
+        Batch = "B55"
+        training = "DevOpsWithAws"
+        mode = "online"
+
+    }
+}
+
+output example_map_op {
+  value       = "we are learning 
+
 }
